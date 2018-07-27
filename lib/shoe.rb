@@ -11,7 +11,7 @@ class Shoe
     puts "Shoe Nike"
   end
  def cobble 
-   puts "whatever"
+   puts "Your shoe is as good as new!"
 end 
 end 
 # shoe=Shoe.new("brand title")
