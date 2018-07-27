@@ -1,6 +1,6 @@
 # Make your shoe class here!
-class Shoe  
-  attr_accessor :author, :page_count, :genre
+class Shoe 
+  attr_accessor :author, :page_count, :genre, :brand
   attr_reader :title
  
   def initialize(title)
@@ -8,8 +8,17 @@ class Shoe
   end
  
   def turn_page
-    puts "Flipping the page...wow, you read fast!"
+    puts "Shoe Nike"
   end
-  shoe = Shoe.new ("And THEN There Were None")
+ # def brand= (brand)
+#   @brand = brand 
+# end 
+ 
+# def brand
+#   @brand
+# end 
  
 end 
+
+ shoe=Shoe.new("brand title")
+ shoe.brand = "Nike"
