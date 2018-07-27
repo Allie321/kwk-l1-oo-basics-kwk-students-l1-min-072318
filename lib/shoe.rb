@@ -11,8 +11,9 @@ class Shoe
     puts "Shoe Nike"
   end
  def cobble 
+   @condition= "new"
    puts "Your shoe is as good as new!"
-end 
+  end 
 end 
 # shoe=Shoe.new("brand title")
 # shoe.brand = "Nike"
