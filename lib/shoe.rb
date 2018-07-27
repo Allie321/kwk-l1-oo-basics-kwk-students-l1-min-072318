@@ -1,6 +1,6 @@
 # Make your shoe class here!
 class Shoe 
-  attr_accessor :author, :page_count, :genre
+  attr_accessor :author, :page_count, :color
   attr_reader :brand
  
   def initialize(brand)
@@ -10,13 +10,6 @@ class Shoe
   def turn_page
     puts "Shoe Nike"
   end
- # def brand= (brand)
-#   @brand = brand 
-# end 
- 
-# def brand
-#   @brand
-# end 
  
 end 
 
