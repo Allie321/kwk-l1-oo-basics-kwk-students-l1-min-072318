@@ -10,8 +10,9 @@ class Shoe
   def turn_page
     puts "Shoe Nike"
   end
- 
+ def cobble 
+   puts "whatever"
 end 
-
+end 
 # shoe=Shoe.new("brand title")
 # shoe.brand = "Nike"
