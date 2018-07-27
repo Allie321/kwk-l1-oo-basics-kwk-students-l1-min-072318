@@ -1,15 +1,19 @@
 # Make your shoe class here!
-class Shoe  
-  attr_accessor :author, :page_count, :genre
-  attr_reader :title
+class Shoe 
+  attr_accessor :condition, :size, :color, :material
+  attr_reader :brand
  
-  def initialize(title)
-    @title = title
+  def initialize(brand)
+    @brand = brand
   end
  
   def turn_page
-    puts "Flipping the page...wow, you read fast!"
+    puts "Shoe Nike"
   end
-  shoe = Shoe.new ("And THEN There Were None")
- 
+ def cobble 
+   @condition= "new"
+   puts "Your shoe is as good as new!"
+  end 
 end 
+# shoe=Shoe.new("brand title")
+# shoe.brand = "Nike"
