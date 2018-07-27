@@ -20,5 +20,5 @@ class Shoe
  
 end 
 
- shoe=Shoe.new("brand title")
- shoe.brand = "Nike"
+# shoe=Shoe.new("brand title")
+# shoe.brand = "Nike"
