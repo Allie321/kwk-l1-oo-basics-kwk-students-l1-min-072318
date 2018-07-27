@@ -4,7 +4,7 @@ class Shoe
   attr_reader :title
  
   def initialize(brand)
-    @barnd = brand
+    @brand = brand
   end
  
   def turn_page
